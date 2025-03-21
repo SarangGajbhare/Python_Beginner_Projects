@@ -13,7 +13,7 @@ while True:
         elif guess > user_input:
             print("Number is to low")
         else:
-            print(f"Correct! You guessed im {attempt} attempt!")
+            print(f"Correct! You guessed in {attempt} attempt!")
             break
         if attempt == 3:
             if guess % 2 == 0:
